@@ -125,7 +125,7 @@ namespace DeviceAnalyzer
                             else if (s.Split('\t')[0] == "RAW")
                             {
                                 IR_RAW = int.Parse(s.Split('\t')[1]);
-                                RED_RAW = int.Parse(s.Split('\t')[2]);
+                                RED_RAW = int.Parse(s.Split('\t')[3]);
                             }
                         }
                         lock (filemutex)
