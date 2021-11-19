@@ -1,0 +1,43 @@
+D:\Dropbox\OktatásPolitika\Laborok\Async\DeviceAnalyzer\bin\Debug\DeviceAnalyzer.exe
+D:\Dropbox\OktatásPolitika\Laborok\Async\DeviceAnalyzer\bin\Debug\DeviceAnalyzer.pdb
+D:\Dropbox\OktatásPolitika\Laborok\Async\DeviceAnalyzer\obj\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\OktatásPolitika\Laborok\Async\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.MainForm.resources
+D:\Dropbox\OktatásPolitika\Laborok\Async\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.Properties.Resources.resources
+D:\Dropbox\OktatásPolitika\Laborok\Async\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.exe
+D:\Dropbox\OktatásPolitika\Laborok\Async\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.pdb
+C:\Users\zkaly\Downloads\Setup\DeviceAnalyzer\bin\Debug\DeviceAnalyzer.exe
+C:\Users\zkaly\Downloads\Setup\DeviceAnalyzer\bin\Debug\DeviceAnalyzer.pdb
+C:\Users\zkaly\Downloads\Setup\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.csprojAssemblyReference.cache
+C:\Users\zkaly\Downloads\Setup\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.MainForm.resources
+C:\Users\zkaly\Downloads\Setup\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.Properties.Resources.resources
+C:\Users\zkaly\Downloads\Setup\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.csproj.GenerateResource.cache
+C:\Users\zkaly\Downloads\Setup\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\zkaly\Downloads\Setup\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.exe
+C:\Users\zkaly\Downloads\Setup\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.pdb
+C:\Users\zkaly\Documents\Suli\MSc\1. félvév\Önálló munka 1\DeviceAnalyzer\bin\Debug\DeviceAnalyzer.exe
+C:\Users\zkaly\Documents\Suli\MSc\1. félvév\Önálló munka 1\DeviceAnalyzer\bin\Debug\DeviceAnalyzer.pdb
+C:\Users\zkaly\Documents\Suli\MSc\1. félvév\Önálló munka 1\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.csprojAssemblyReference.cache
+C:\Users\zkaly\Documents\Suli\MSc\1. félvév\Önálló munka 1\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.MainForm.resources
+C:\Users\zkaly\Documents\Suli\MSc\1. félvév\Önálló munka 1\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.Properties.Resources.resources
+C:\Users\zkaly\Documents\Suli\MSc\1. félvév\Önálló munka 1\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.csproj.GenerateResource.cache
+C:\Users\zkaly\Documents\Suli\MSc\1. félvév\Önálló munka 1\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\zkaly\Documents\Suli\MSc\1. félvév\Önálló munka 1\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.exe
+C:\Users\zkaly\Documents\Suli\MSc\1. félvév\Önálló munka 1\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.pdb
+c:\Users\zkaly\Documents\Suli\MSc\1. félvév\Önálló munka 1\Saját\DeviceAnalyzer\bin\Debug\DeviceAnalyzer.exe
+c:\Users\zkaly\Documents\Suli\MSc\1. félvév\Önálló munka 1\Saját\DeviceAnalyzer\bin\Debug\DeviceAnalyzer.pdb
+c:\Users\zkaly\Documents\Suli\MSc\1. félvév\Önálló munka 1\Saját\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.csprojAssemblyReference.cache
+c:\Users\zkaly\Documents\Suli\MSc\1. félvév\Önálló munka 1\Saját\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.MainForm.resources
+c:\Users\zkaly\Documents\Suli\MSc\1. félvév\Önálló munka 1\Saját\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.Properties.Resources.resources
+c:\Users\zkaly\Documents\Suli\MSc\1. félvév\Önálló munka 1\Saját\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.csproj.GenerateResource.cache
+c:\Users\zkaly\Documents\Suli\MSc\1. félvév\Önálló munka 1\Saját\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.csproj.CoreCompileInputs.cache
+c:\Users\zkaly\Documents\Suli\MSc\1. félvév\Önálló munka 1\Saját\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.exe
+c:\Users\zkaly\Documents\Suli\MSc\1. félvév\Önálló munka 1\Saját\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.pdb
+C:\Users\zkaly\Documents\Suli\MSc\2. félvév\Önlab2\Önálló munka 1\Saját\DeviceAnalyzer\bin\Debug\DeviceAnalyzer.exe
+C:\Users\zkaly\Documents\Suli\MSc\2. félvév\Önlab2\Önálló munka 1\Saját\DeviceAnalyzer\bin\Debug\DeviceAnalyzer.pdb
+C:\Users\zkaly\Documents\Suli\MSc\2. félvév\Önlab2\Önálló munka 1\Saját\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.MainForm.resources
+C:\Users\zkaly\Documents\Suli\MSc\2. félvév\Önlab2\Önálló munka 1\Saját\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.Properties.Resources.resources
+C:\Users\zkaly\Documents\Suli\MSc\2. félvév\Önlab2\Önálló munka 1\Saját\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.csproj.GenerateResource.cache
+C:\Users\zkaly\Documents\Suli\MSc\2. félvév\Önlab2\Önálló munka 1\Saját\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\zkaly\Documents\Suli\MSc\2. félvév\Önlab2\Önálló munka 1\Saját\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.exe
+C:\Users\zkaly\Documents\Suli\MSc\2. félvév\Önlab2\Önálló munka 1\Saját\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.pdb
+C:\Users\zkaly\Documents\Suli\MSc\2. félvév\Önlab2\Önálló munka 1\Saját\DeviceAnalyzer\obj\Debug\DeviceAnalyzer.csprojAssemblyReference.cache
