@@ -52,8 +52,6 @@ namespace DeviceAnalyzer
         float y1 = 50;
         float y2 = 50;
 
-        string[] time = new string[500];/*TIMETEST*/
-
 
         DateTime logtime;
         DateTime drawtime;
@@ -125,7 +123,7 @@ namespace DeviceAnalyzer
                             else if (s.Split('\t')[0] == "RAW")
                             {
                                 IR_RAW = int.Parse(s.Split('\t')[1]);
-                                RED_RAW = int.Parse(s.Split('\t')[3]);
+                                RED_RAW = int.Parse(s.Split('\t')[2]);
                             }
                         }
                         lock (filemutex)
@@ -155,19 +153,10 @@ namespace DeviceAnalyzer
             {
                 if (Run)
                 {
-                    drawtime = DateTime.Now;/*TIMETEST*/
-                    string elapsedTime = String.Format("{0:00}.{1:00}",drawtime.Second, drawtime.Millisecond);/*TIMETEST*/
                     signControl1.IR_RAWBuffer[signControl1.StartIndex] = IR_RAW;
                     signControl1.RED_RAWBuffer[signControl1.StartIndex] = RED_RAW;
                     signControl1.IR_FILTBuffer[signControl1.StartIndex] = IR_FILT;
                     signControl1.RED_FILTBuffer[signControl1.StartIndex] = RED_FILT;
-                    time[signControl1.StartIndex] = elapsedTime; /*TIMETEST*/
-                    if (DrawRED_RAW || DrawIR_RAW || DrawFILT)
-                    {
-                        int n = SelectedT * 100;
-                        Timetest1.Text = "T1: " + time[signControl1.StartIndex - n >= 0 ? signControl1.StartIndex - n : 500 + (signControl1.StartIndex - n)];
-                        Timetest2.Text = "T2: " + time[signControl1.StartIndex];
-                    }
                     signControl1.StartIndex = (signControl1.StartIndex + 1) % 500;
                 }
                 signControl1.T = SelectedT;

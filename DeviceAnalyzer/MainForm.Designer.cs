@@ -78,8 +78,6 @@
             this.MeasuredParamGroup = new System.Windows.Forms.GroupBox();
             this.MeasuredSaO2lable = new System.Windows.Forms.Label();
             this.SaO2lable = new System.Windows.Forms.Label();
-            this.Timetest1 = new System.Windows.Forms.Label();
-            this.Timetest2 = new System.Windows.Forms.Label();
             this.signControl1 = new DeviceAnalyzer.SignControl();
             this.PortSettinsGroup.SuspendLayout();
             this.LoggingDataGroup.SuspendLayout();
@@ -280,8 +278,6 @@
             // 
             // GraphGroup
             // 
-            this.GraphGroup.Controls.Add(this.Timetest2);
-            this.GraphGroup.Controls.Add(this.Timetest1);
             this.GraphGroup.Controls.Add(this.y1checkBox);
             this.GraphGroup.Controls.Add(this.checkBoxFILTERED);
             this.GraphGroup.Controls.Add(this.xradiogroup);
@@ -630,24 +626,6 @@
             this.SaO2lable.TabIndex = 34;
             this.SaO2lable.Text = "SaO2:";
             // 
-            // Timetest1
-            // 
-            this.Timetest1.AutoSize = true;
-            this.Timetest1.Location = new System.Drawing.Point(96, 76);
-            this.Timetest1.Name = "Timetest1";
-            this.Timetest1.Size = new System.Drawing.Size(13, 13);
-            this.Timetest1.TabIndex = 58;
-            this.Timetest1.Text = "0";
-            // 
-            // Timetest2
-            // 
-            this.Timetest2.AutoSize = true;
-            this.Timetest2.Location = new System.Drawing.Point(96, 89);
-            this.Timetest2.Name = "Timetest2";
-            this.Timetest2.Size = new System.Drawing.Size(13, 13);
-            this.Timetest2.TabIndex = 59;
-            this.Timetest2.Text = "0";
-            // 
             // signControl1
             // 
             this.signControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -751,8 +729,6 @@
         private System.Windows.Forms.Label MeasuredSaO2lable;
         private System.Windows.Forms.Label SaO2lable;
         private System.Windows.Forms.CheckBox checkBoxFILTERED;
-        private System.Windows.Forms.Label Timetest2;
-        private System.Windows.Forms.Label Timetest1;
     }
 }
 
