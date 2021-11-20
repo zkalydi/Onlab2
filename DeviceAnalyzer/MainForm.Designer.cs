@@ -75,10 +75,11 @@
             this.MeasuredPulselabel = new System.Windows.Forms.Label();
             this.HorizontaltrackBar = new System.Windows.Forms.TrackBar();
             this.VerticaltrackBar = new System.Windows.Forms.TrackBar();
-            this.MeasuredParamGroup = new System.Windows.Forms.GroupBox();
-            this.MeasuredSaO2lable = new System.Windows.Forms.Label();
+            this.MeasuredParametersgroup = new System.Windows.Forms.GroupBox();
             this.SaO2lable = new System.Windows.Forms.Label();
+            this.MeasuredSaO2lable = new System.Windows.Forms.Label();
             this.signControl1 = new DeviceAnalyzer.SignControl();
+            this.AxesMeasuregroup = new System.Windows.Forms.GroupBox();
             this.PortSettinsGroup.SuspendLayout();
             this.LoggingDataGroup.SuspendLayout();
             this.GraphGroup.SuspendLayout();
@@ -86,7 +87,8 @@
             this.yradiogroup.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.HorizontaltrackBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.VerticaltrackBar)).BeginInit();
-            this.MeasuredParamGroup.SuspendLayout();
+            this.MeasuredParametersgroup.SuspendLayout();
+            this.AxesMeasuregroup.SuspendLayout();
             this.SuspendLayout();
             // 
             // PortSettinsGroup
@@ -476,25 +478,25 @@
             // dylabel
             // 
             this.dylabel.AutoSize = true;
-            this.dylabel.Location = new System.Drawing.Point(88, 16);
+            this.dylabel.Location = new System.Drawing.Point(84, 17);
             this.dylabel.Name = "dylabel";
-            this.dylabel.Size = new System.Drawing.Size(13, 13);
+            this.dylabel.Size = new System.Drawing.Size(29, 13);
             this.dylabel.TabIndex = 31;
-            this.dylabel.Text = "0";
+            this.dylabel.Text = "NaN";
             // 
             // y2markerlabel
             // 
             this.y2markerlabel.AutoSize = true;
-            this.y2markerlabel.Location = new System.Drawing.Point(27, 24);
+            this.y2markerlabel.Location = new System.Drawing.Point(23, 25);
             this.y2markerlabel.Name = "y2markerlabel";
-            this.y2markerlabel.Size = new System.Drawing.Size(13, 13);
+            this.y2markerlabel.Size = new System.Drawing.Size(29, 13);
             this.y2markerlabel.TabIndex = 32;
-            this.y2markerlabel.Text = "0";
+            this.y2markerlabel.Text = "NaN";
             // 
             // deltayLabel
             // 
             this.deltayLabel.AutoSize = true;
-            this.deltayLabel.Location = new System.Drawing.Point(70, 16);
+            this.deltayLabel.Location = new System.Drawing.Point(66, 17);
             this.deltayLabel.Name = "deltayLabel";
             this.deltayLabel.Size = new System.Drawing.Size(21, 13);
             this.deltayLabel.TabIndex = 23;
@@ -503,16 +505,16 @@
             // y1markerlabel
             // 
             this.y1markerlabel.AutoSize = true;
-            this.y1markerlabel.Location = new System.Drawing.Point(27, 8);
+            this.y1markerlabel.Location = new System.Drawing.Point(23, 9);
             this.y1markerlabel.Name = "y1markerlabel";
-            this.y1markerlabel.Size = new System.Drawing.Size(13, 13);
+            this.y1markerlabel.Size = new System.Drawing.Size(29, 13);
             this.y1markerlabel.TabIndex = 33;
-            this.y1markerlabel.Text = "0";
+            this.y1markerlabel.Text = "NaN";
             // 
             // y2Label
             // 
             this.y2Label.AutoSize = true;
-            this.y2Label.Location = new System.Drawing.Point(9, 24);
+            this.y2Label.Location = new System.Drawing.Point(5, 25);
             this.y2Label.Name = "y2Label";
             this.y2Label.Size = new System.Drawing.Size(21, 13);
             this.y2Label.TabIndex = 19;
@@ -521,16 +523,16 @@
             // dxlabel
             // 
             this.dxlabel.AutoSize = true;
-            this.dxlabel.Location = new System.Drawing.Point(146, 16);
+            this.dxlabel.Location = new System.Drawing.Point(136, 17);
             this.dxlabel.Name = "dxlabel";
-            this.dxlabel.Size = new System.Drawing.Size(16, 13);
+            this.dxlabel.Size = new System.Drawing.Size(29, 13);
             this.dxlabel.TabIndex = 30;
-            this.dxlabel.Text = "0 ";
+            this.dxlabel.Text = "NaN";
             // 
             // y1Label
             // 
             this.y1Label.AutoSize = true;
-            this.y1Label.Location = new System.Drawing.Point(9, 8);
+            this.y1Label.Location = new System.Drawing.Point(5, 9);
             this.y1Label.Name = "y1Label";
             this.y1Label.Size = new System.Drawing.Size(21, 13);
             this.y1Label.TabIndex = 17;
@@ -539,7 +541,7 @@
             // deltaxLabel
             // 
             this.deltaxLabel.AutoSize = true;
-            this.deltaxLabel.Location = new System.Drawing.Point(128, 16);
+            this.deltaxLabel.Location = new System.Drawing.Point(118, 17);
             this.deltaxLabel.Name = "deltaxLabel";
             this.deltaxLabel.Size = new System.Drawing.Size(21, 13);
             this.deltaxLabel.TabIndex = 21;
@@ -548,7 +550,7 @@
             // PulseLabel
             // 
             this.PulseLabel.AutoSize = true;
-            this.PulseLabel.Location = new System.Drawing.Point(185, 15);
+            this.PulseLabel.Location = new System.Drawing.Point(8, 16);
             this.PulseLabel.Name = "PulseLabel";
             this.PulseLabel.Size = new System.Drawing.Size(85, 13);
             this.PulseLabel.TabIndex = 25;
@@ -557,7 +559,7 @@
             // MeasuredPulselabel
             // 
             this.MeasuredPulselabel.AutoSize = true;
-            this.MeasuredPulselabel.Location = new System.Drawing.Point(271, 15);
+            this.MeasuredPulselabel.Location = new System.Drawing.Point(94, 16);
             this.MeasuredPulselabel.Name = "MeasuredPulselabel";
             this.MeasuredPulselabel.Size = new System.Drawing.Size(13, 13);
             this.MeasuredPulselabel.TabIndex = 27;
@@ -588,43 +590,35 @@
             this.VerticaltrackBar.Value = 50;
             this.VerticaltrackBar.Scroll += new System.EventHandler(this.VerticaltrackBar_Scroll);
             // 
-            // MeasuredParamGroup
+            // MeasuredParametersgroup
             // 
-            this.MeasuredParamGroup.Controls.Add(this.MeasuredSaO2lable);
-            this.MeasuredParamGroup.Controls.Add(this.SaO2lable);
-            this.MeasuredParamGroup.Controls.Add(this.PulseLabel);
-            this.MeasuredParamGroup.Controls.Add(this.y1Label);
-            this.MeasuredParamGroup.Controls.Add(this.dylabel);
-            this.MeasuredParamGroup.Controls.Add(this.y2Label);
-            this.MeasuredParamGroup.Controls.Add(this.MeasuredPulselabel);
-            this.MeasuredParamGroup.Controls.Add(this.deltayLabel);
-            this.MeasuredParamGroup.Controls.Add(this.deltaxLabel);
-            this.MeasuredParamGroup.Controls.Add(this.y2markerlabel);
-            this.MeasuredParamGroup.Controls.Add(this.y1markerlabel);
-            this.MeasuredParamGroup.Controls.Add(this.dxlabel);
-            this.MeasuredParamGroup.Location = new System.Drawing.Point(474, 76);
-            this.MeasuredParamGroup.Name = "MeasuredParamGroup";
-            this.MeasuredParamGroup.Size = new System.Drawing.Size(370, 42);
-            this.MeasuredParamGroup.TabIndex = 49;
-            this.MeasuredParamGroup.TabStop = false;
-            // 
-            // MeasuredSaO2lable
-            // 
-            this.MeasuredSaO2lable.AutoSize = true;
-            this.MeasuredSaO2lable.Location = new System.Drawing.Point(335, 15);
-            this.MeasuredSaO2lable.Name = "MeasuredSaO2lable";
-            this.MeasuredSaO2lable.Size = new System.Drawing.Size(13, 13);
-            this.MeasuredSaO2lable.TabIndex = 35;
-            this.MeasuredSaO2lable.Text = "0";
+            this.MeasuredParametersgroup.Controls.Add(this.SaO2lable);
+            this.MeasuredParametersgroup.Controls.Add(this.MeasuredSaO2lable);
+            this.MeasuredParametersgroup.Controls.Add(this.PulseLabel);
+            this.MeasuredParametersgroup.Controls.Add(this.MeasuredPulselabel);
+            this.MeasuredParametersgroup.Location = new System.Drawing.Point(658, 76);
+            this.MeasuredParametersgroup.Name = "MeasuredParametersgroup";
+            this.MeasuredParametersgroup.Size = new System.Drawing.Size(186, 42);
+            this.MeasuredParametersgroup.TabIndex = 49;
+            this.MeasuredParametersgroup.TabStop = false;
             // 
             // SaO2lable
             // 
             this.SaO2lable.AutoSize = true;
-            this.SaO2lable.Location = new System.Drawing.Point(292, 16);
+            this.SaO2lable.Location = new System.Drawing.Point(115, 17);
             this.SaO2lable.Name = "SaO2lable";
             this.SaO2lable.Size = new System.Drawing.Size(37, 13);
             this.SaO2lable.TabIndex = 34;
             this.SaO2lable.Text = "SaO2:";
+            // 
+            // MeasuredSaO2lable
+            // 
+            this.MeasuredSaO2lable.AutoSize = true;
+            this.MeasuredSaO2lable.Location = new System.Drawing.Point(158, 16);
+            this.MeasuredSaO2lable.Name = "MeasuredSaO2lable";
+            this.MeasuredSaO2lable.Size = new System.Drawing.Size(13, 13);
+            this.MeasuredSaO2lable.TabIndex = 35;
+            this.MeasuredSaO2lable.Text = "0";
             // 
             // signControl1
             // 
@@ -640,15 +634,32 @@
             this.signControl1.TabIndex = 26;
             this.signControl1.Text = "signControl1";
             // 
+            // AxesMeasuregroup
+            // 
+            this.AxesMeasuregroup.Controls.Add(this.y1Label);
+            this.AxesMeasuregroup.Controls.Add(this.dylabel);
+            this.AxesMeasuregroup.Controls.Add(this.y2Label);
+            this.AxesMeasuregroup.Controls.Add(this.deltayLabel);
+            this.AxesMeasuregroup.Controls.Add(this.deltaxLabel);
+            this.AxesMeasuregroup.Controls.Add(this.y2markerlabel);
+            this.AxesMeasuregroup.Controls.Add(this.dxlabel);
+            this.AxesMeasuregroup.Controls.Add(this.y1markerlabel);
+            this.AxesMeasuregroup.Location = new System.Drawing.Point(474, 76);
+            this.AxesMeasuregroup.Name = "AxesMeasuregroup";
+            this.AxesMeasuregroup.Size = new System.Drawing.Size(178, 42);
+            this.AxesMeasuregroup.TabIndex = 50;
+            this.AxesMeasuregroup.TabStop = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(858, 533);
+            this.Controls.Add(this.AxesMeasuregroup);
             this.Controls.Add(this.signControl1);
             this.Controls.Add(this.HorizontaltrackBar);
-            this.Controls.Add(this.MeasuredParamGroup);
+            this.Controls.Add(this.MeasuredParametersgroup);
             this.Controls.Add(this.VerticaltrackBar);
             this.Controls.Add(this.GraphGroup);
             this.Controls.Add(this.LoggingDataGroup);
@@ -672,8 +683,10 @@
             this.yradiogroup.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.HorizontaltrackBar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.VerticaltrackBar)).EndInit();
-            this.MeasuredParamGroup.ResumeLayout(false);
-            this.MeasuredParamGroup.PerformLayout();
+            this.MeasuredParametersgroup.ResumeLayout(false);
+            this.MeasuredParametersgroup.PerformLayout();
+            this.AxesMeasuregroup.ResumeLayout(false);
+            this.AxesMeasuregroup.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -715,7 +728,7 @@
         private System.Windows.Forms.Button CloseFilebtn;
         private System.Windows.Forms.TrackBar HorizontaltrackBar;
         private System.Windows.Forms.TrackBar VerticaltrackBar;
-        private System.Windows.Forms.GroupBox MeasuredParamGroup;
+        private System.Windows.Forms.GroupBox MeasuredParametersgroup;
         private System.Windows.Forms.CheckBox y2checkBox;
         private System.Windows.Forms.CheckBox y1checkBox;
         private System.Windows.Forms.CheckBox x2checkBox;
@@ -729,6 +742,7 @@
         private System.Windows.Forms.Label MeasuredSaO2lable;
         private System.Windows.Forms.Label SaO2lable;
         private System.Windows.Forms.CheckBox checkBoxFILTERED;
+        private System.Windows.Forms.GroupBox AxesMeasuregroup;
     }
 }
 

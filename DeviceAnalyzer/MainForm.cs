@@ -54,7 +54,6 @@ namespace DeviceAnalyzer
 
 
         DateTime logtime;
-        DateTime drawtime;
 
         StreamWriter outfile;
         string filename = "log";
@@ -82,11 +81,16 @@ namespace DeviceAnalyzer
             OverwriteButton.Checked = true;
             LoggingDataGroup.Enabled = false;
             GraphGroup.Enabled = false;
-            MeasuredParamGroup.Enabled = false;
+            MeasuredParametersgroup.Enabled = false;
+            AxesMeasuregroup.Enabled = false;
             checkBoxRED_RAW.Checked = true;
             checkBoxIR_RAW.Checked = true;
             checkBoxFILTERED.Checked = false;
             btnClose.Enabled = false;
+            btnRecord.Enabled = false;
+            CloseFilebtn.Enabled = false;
+            xradiogroup.Enabled = false;
+            yradiogroup.Enabled = false;
             VerticaltrackBar.Enabled = false;
             HorizontaltrackBar.Enabled = false;
             VerticaltrackBar.Value = 50;
@@ -213,7 +217,7 @@ namespace DeviceAnalyzer
                         PortConfig.Enabled = false;
                         LoggingDataGroup.Enabled = true;
                         GraphGroup.Enabled = true;
-                        MeasuredParamGroup.Enabled = true;
+                        MeasuredParametersgroup.Enabled = true;
                         bntOpen.Enabled = false;
                         btnClose.Enabled = true;
                         btnStopGraph.Text = "STOP";
@@ -247,7 +251,7 @@ namespace DeviceAnalyzer
                         PortConfig.Enabled = true;
                         LoggingDataGroup.Enabled = false;
                         GraphGroup.Enabled = false;
-                        MeasuredParamGroup.Enabled = false;
+                        MeasuredParametersgroup.Enabled = false;
                         bntOpen.Enabled = true;
                         btnClose.Enabled = false;
                         Run = false;
@@ -435,6 +439,8 @@ namespace DeviceAnalyzer
             {
                 Drawx1 = true;
                 x1ORx2 = false;
+                xradiogroup.Enabled = true;
+                AxesMeasuregroup.Enabled = true;
                 x1radioButton.Checked = true;
                 x2radioButton.Checked = false;
             }
@@ -448,8 +454,11 @@ namespace DeviceAnalyzer
             else
             {
                 Drawx1 = false;
+                xradiogroup.Enabled = false;
                 x1radioButton.Checked = false;
                 x2radioButton.Checked = false;
+                if (!y1checkBox.Checked && !y2checkBox.Checked)
+                    AxesMeasuregroup.Enabled = false;
             }
         }
 
@@ -459,6 +468,8 @@ namespace DeviceAnalyzer
             {
                 Drawy1 = true;
                 y1ORy2 = false;
+                yradiogroup.Enabled = true;
+                AxesMeasuregroup.Enabled = true;
                 y1radioButton.Checked = true;
                 y2radioButton.Checked = false;
             }
@@ -472,8 +483,11 @@ namespace DeviceAnalyzer
             else
             {
                 Drawy1 = false;
+                yradiogroup.Enabled = false;
                 y1radioButton.Checked = false;
                 y2radioButton.Checked = false;
+                if (!x1checkBox.Checked && !x2checkBox.Checked)
+                    AxesMeasuregroup.Enabled = false;
             }    
         }
 
@@ -483,6 +497,8 @@ namespace DeviceAnalyzer
             {
                 Drawx2 = true;
                 x1ORx2 = true;
+                xradiogroup.Enabled = true;
+                AxesMeasuregroup.Enabled = true;
                 x1radioButton.Checked = false;
                 x2radioButton.Checked = true;
             }
@@ -496,8 +512,11 @@ namespace DeviceAnalyzer
             else
             {
                 Drawx2 = false;
+                xradiogroup.Enabled = false;
                 x1radioButton.Checked = false;
                 x2radioButton.Checked = false;
+                if (!y1checkBox.Checked && !y2checkBox.Checked)
+                    AxesMeasuregroup.Enabled = false;
             }
         }
 
@@ -507,6 +526,8 @@ namespace DeviceAnalyzer
             {
                 Drawy2 = true;
                 y1ORy2 = true;
+                yradiogroup.Enabled = true;
+                AxesMeasuregroup.Enabled = true;
                 y1radioButton.Checked = false;
                 y2radioButton.Checked = true;
             }
@@ -520,8 +541,11 @@ namespace DeviceAnalyzer
             else
             {
                 Drawy2 = false;
+                yradiogroup.Enabled = false;
                 y1radioButton.Checked = false;
                 y2radioButton.Checked = false;
+                if(!x1checkBox.Checked && !x2checkBox.Checked)
+                    AxesMeasuregroup.Enabled = false;
             }
         }
 
